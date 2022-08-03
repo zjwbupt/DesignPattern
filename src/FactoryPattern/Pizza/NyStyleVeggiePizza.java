@@ -1,4 +1,4 @@
-package FactoryPattern;
+package FactoryPattern.Pizza;
 
 public class NyStyleVeggiePizza extends Pizza {
     public NyStyleVeggiePizza() {

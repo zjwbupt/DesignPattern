@@ -1,4 +1,4 @@
-package FactoryPattern;
+package FactoryPattern.Pizza;
 
 import java.util.ArrayList;
 
@@ -8,20 +8,20 @@ public class Pizza {
     String sauce;
     ArrayList<String> toppings = new ArrayList<>();
 
-    void prepare() {
+    public void prepare() {
 
     }
 
-    void bake() {
+    public void bake() {
 
     }
 
-    void cut()
+    public void cut()
     {
 
     }
 
-    void box() {}
+    public void box() {}
 
     public String getName() {
         return name;

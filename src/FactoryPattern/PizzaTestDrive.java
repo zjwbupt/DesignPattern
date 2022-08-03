@@ -1,5 +1,10 @@
 package FactoryPattern;
 
+import FactoryPattern.Pizza.Pizza;
+import FactoryPattern.Store.ChicagoPizzaStore;
+import FactoryPattern.Store.NYPizzaStore;
+import FactoryPattern.Store.PizzaStore;
+
 public class PizzaTestDrive {
 
     public static void main(String[] args) {

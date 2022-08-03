@@ -1,4 +1,8 @@
-package FactoryPattern;
+package FactoryPattern.Store;
+
+import FactoryPattern.Pizza.NyStyleCheesePizza;
+import FactoryPattern.Pizza.NyStyleVeggiePizza;
+import FactoryPattern.Pizza.Pizza;
 
 public class NYPizzaStore extends PizzaStore {
 
